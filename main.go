@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("Un guindos", os)
 	}
 
-	numero, texto := ejercicios.Ejercicio("150")
+	numero, texto := ejercicios.Ejercicio("poto")
 
 	fmt.Println(numero)
 	fmt.Println(texto)

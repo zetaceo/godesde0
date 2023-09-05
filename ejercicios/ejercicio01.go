@@ -7,7 +7,7 @@ import (
 func Ejercicio(texto string) (int, string) {
 	valor, err := strconv.Atoi(texto)
 	if err != nil {
-		return 0, "Hubo un error"
+		return 0, "Hubo un error: " + err.Error()
 	}
 	var texto_resultado string
 
