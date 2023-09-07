@@ -1,10 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
-	"github.com/zetaceo/godesde0/ejercicios"
+	"github.com/zetaceo/godesde0/teclado"
 )
 
 func main() {
@@ -12,14 +9,17 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto) */
 
-	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
-		fmt.Println("Unix based!", os)
-	} else {
-		fmt.Println("Un guindos", os)
-	}
+	// if os := runtime.GOOS; os == "Linux." || os == "OS X." {
+	// 	fmt.Println("Unix based!", os)
+	// } else {
+	// 	fmt.Println("Un guindos", os)
+	// }
 
-	numero, texto := ejercicios.Ejercicio("poto")
+	// numero, texto := ejercicios.Ejercicio("poto")
 
-	fmt.Println(numero)
-	fmt.Println(texto)
+	// fmt.Println(numero)
+	// fmt.Println(texto)
+
+	teclado.IngresoNumeros()
+
 }
